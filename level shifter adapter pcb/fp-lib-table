@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connector_PinSocket_2.54mm)(type KiCad)(uri "C:/Users/Daniel Stroh/Documents/Repos/ErgoDox18-PCB/global libraries/kicad/kicad-footprints.pretty/Connector_PinSocket_2.54mm.pretty")(options "")(descr ""))
+  (lib (name "level shifter-footprints")(type KiCad)(uri "C:/Users/Daniel Stroh/Documents/Repos/ErgoDox18-PCB/global libraries/level shifter/level shifter-footprints.pretty")(options "")(descr ""))
+)

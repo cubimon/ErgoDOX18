@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/daniel/Windows/Repos/ErgoDox18-PCB/USB-C adapter pcb/USB-C adapter.sch</source>
+    <date>Thu 20 Sep 2018 09:08:20 PM CEST</date>
+    <tool>Eeschema 5.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB-C Adapter</title>
+        <company/>
+        <rev>v01</rev>
+        <date>2018-09-15</date>
+        <source>USB-C adapter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="creativecommons.org/licence/by/4.0"/>
+        <comment number="3" value="License: CC BY 4.0"/>
+        <comment number="4" value="Author: Cubimon"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>USB_C_Receptacle</value>
+      <footprint>USB-C:JAE-DX07S024JJ2R1300</footprint>
+      <datasheet>http://www.usb.org/developers/docs/usb_31_033017.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9AC3C4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle">
+      <description>USB Type-C Receptacle connector</description>
+      <docs>http://www.usb.org/developers/docs/usb_31_033017.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A2" name="TX1+" type="BiDi"/>
+        <pin num="A3" name="TX1-" type="BiDi"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A10" name="RX2-" type="BiDi"/>
+        <pin num="A11" name="RX2+" type="BiDi"/>
+        <pin num="A12" name="GND" type="power_in"/>
+        <pin num="B1" name="GND" type="power_in"/>
+        <pin num="B2" name="TX2+" type="BiDi"/>
+        <pin num="B3" name="TX2-" type="BiDi"/>
+        <pin num="B4" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B10" name="RX1-" type="BiDi"/>
+        <pin num="B11" name="RX1+" type="BiDi"/>
+        <pin num="B12" name="GND" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/home/daniel/Windows/Repos/ErgoDox18-PCB/USB-C adapter pcb/../global libraries/kicad/kicad-symbols/Connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-PadB10)">
+      <node ref="J1" pin="B10"/>
+    </net>
+    <net code="2" name="Net-(J1-PadS1)">
+      <node ref="J1" pin="S1"/>
+    </net>
+    <net code="3" name="Net-(J1-PadB9)">
+      <node ref="J1" pin="B9"/>
+    </net>
+    <net code="4" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="5" name="Net-(J1-PadB7)">
+      <node ref="J1" pin="B7"/>
+    </net>
+    <net code="6" name="Net-(J1-PadB6)">
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="7" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5"/>
+    </net>
+    <net code="8" name="Net-(J1-PadB4)">
+      <node ref="J1" pin="B4"/>
+    </net>
+    <net code="9" name="Net-(J1-PadB3)">
+      <node ref="J1" pin="B3"/>
+    </net>
+    <net code="10" name="Net-(J1-PadB2)">
+      <node ref="J1" pin="B2"/>
+    </net>
+    <net code="11" name="Net-(J1-PadB12)">
+      <node ref="J1" pin="B12"/>
+    </net>
+    <net code="12" name="Net-(J1-PadB11)">
+      <node ref="J1" pin="B11"/>
+    </net>
+    <net code="13" name="Net-(J1-PadA1)">
+      <node ref="J1" pin="A1"/>
+    </net>
+    <net code="14" name="Net-(J1-PadB1)">
+      <node ref="J1" pin="B1"/>
+    </net>
+    <net code="15" name="Net-(J1-PadA9)">
+      <node ref="J1" pin="A9"/>
+    </net>
+    <net code="16" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="17" name="Net-(J1-PadA7)">
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="18" name="Net-(J1-PadA6)">
+      <node ref="J1" pin="A6"/>
+    </net>
+    <net code="19" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5"/>
+    </net>
+    <net code="20" name="Net-(J1-PadA4)">
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="21" name="Net-(J1-PadA3)">
+      <node ref="J1" pin="A3"/>
+    </net>
+    <net code="22" name="Net-(J1-PadA2)">
+      <node ref="J1" pin="A2"/>
+    </net>
+    <net code="23" name="Net-(J1-PadA12)">
+      <node ref="J1" pin="A12"/>
+    </net>
+    <net code="24" name="Net-(J1-PadA11)">
+      <node ref="J1" pin="A11"/>
+    </net>
+    <net code="25" name="Net-(J1-PadA10)">
+      <node ref="J1" pin="A10"/>
+    </net>
+  </nets>
+</export>

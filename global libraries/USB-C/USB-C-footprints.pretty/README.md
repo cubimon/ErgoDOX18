@@ -1,0 +1,1 @@
+copied and adapted from [DR8 github repository](https://github.com/hexagon-robotics/DR8/blob/master/HEXAGON-ROBOTICS.pretty/JAE-DX07S024JJ3R1300.kicad_mod)

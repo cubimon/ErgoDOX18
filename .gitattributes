@@ -1,0 +1,4 @@
+datasheets/595-TXS0102DCUR.pdf filter=lfs diff=lfs merge=lfs -text
+datasheets/656-DX07S024JJ2R1300.pdf filter=lfs diff=lfs merge=lfs -text
+datasheets/MCP23017.pdf filter=lfs diff=lfs merge=lfs -text
+datasheets/WS2813.pdf filter=lfs diff=lfs merge=lfs -text

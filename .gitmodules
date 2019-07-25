@@ -1,0 +1,15 @@
+[submodule "ErgoDOX pcb/libraries/teensy/teensy-footprints.pretty"]
+	path = ErgoDOX pcb/libraries/teensy/teensy-footprints.pretty
+	url = https://github.com/XenGi/teensy.pretty.git
+[submodule "ErgoDOX pcb/libraries/teensy/teensy-symbols"]
+	path = ErgoDOX pcb/libraries/teensy/teensy-symbols
+	url = https://github.com/XenGi/teensy_library.git
+[submodule "global libraries/digikey"]
+	path = global libraries/digikey
+	url = https://github.com/digikey/digikey-kicad-library.git
+[submodule "global libraries/kicad/kicad-footprints.pretty"]
+	path = global libraries/kicad/kicad-footprints.pretty
+	url = https://github.com/KiCad/kicad-footprints.git
+[submodule "global libraries/kicad/kicad-symbols"]
+	path = global libraries/kicad/kicad-symbols
+	url = https://github.com/KiCad/kicad-symbols.git

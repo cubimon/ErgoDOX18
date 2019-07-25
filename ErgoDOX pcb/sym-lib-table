@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name keyboard)(type Legacy)(uri ${KIPRJMOD}/libraries/keyboard/keyboard-symbols/keyboard.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/libraries/teensy/teensy-symbols/teensy.lib)(options "")(descr ""))
+  (lib (name dk_Interface-I-O-Expanders)(type Legacy)(uri "${KIPRJMOD}/../global libraries/digikey/digikey-symbols/dk_Interface-I-O-Expanders.lib")(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri "${KIPRJMOD}/../global libraries/kicad/kicad-symbols/power.lib")(options "")(descr ""))
+  (lib (name LED)(type Legacy)(uri "${KIPRJMOD}/../global libraries/kicad/kicad-symbols/LED.lib")(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri "${KIPRJMOD}/../global libraries/kicad/kicad-symbols/Connector.lib")(options "")(descr ""))
+  (lib (name LevelShifter)(type Legacy)(uri "${KIPRJMOD}/../global libraries/kicad/kicad-symbols/Logic_LevelTranslator.lib")(options "")(descr ""))
+  (lib (name Device/Resistor)(type Legacy)(uri "${KIPRJMOD}/../global libraries/kicad/kicad-symbols/Device.lib")(options "")(descr ""))
+)

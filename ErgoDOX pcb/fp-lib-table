@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name teensy-footprints)(type KiCad)(uri ${KIPRJMOD}/libraries/teensy/teensy-footprints.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri "${KIPRJMOD}/../global libraries/digikey/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name kicad-keyboard-switch)(type KiCad)(uri "${KIPRJMOD}/../global libraries/kicad/kicad-footprints.pretty/Button_Switch_Keyboard.pretty")(options "")(descr ""))
+  (lib (name keyboard)(type KiCad)(uri ${KIPRJMOD}/libraries/keyboard/keyboard-footprints.pretty)(options "")(descr ""))
+)
